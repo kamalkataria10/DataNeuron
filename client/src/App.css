@@ -1,0 +1,16 @@
+.maindiv {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
+  gap: 10px;
+}
+
+.onediv {
+  min-height: 200px;
+  height: 40vh;
+  width: calc(50% - 10px);
+  background-color: rgb(229, 246, 245);
+  resize: both;
+  border: 2px solid black;
+  text-align: center;
+  overflow: auto;
+}
